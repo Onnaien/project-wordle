@@ -21,8 +21,7 @@ function Game() {
   };
   return (
     <>
-      <Guess guessResult={guessResult} answer={answer} />
-      <GuessResults guessResult={guessResult} />
+      <GuessResults guessResult={guessResult} answer={answer} />
       <GuessInput updateGuessResultHandle={updateGuessResult} />
     </>
   );
