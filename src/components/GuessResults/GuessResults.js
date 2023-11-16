@@ -15,3 +15,4 @@ function GuessResults({ guessResult, answer }) {
 }
 
 export default GuessResults;
+
